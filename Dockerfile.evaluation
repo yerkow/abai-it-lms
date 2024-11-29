@@ -54,7 +54,6 @@ RUN yarn install
 
 # Copy over remaining files and set up for precompilation.
 COPY --chown=www-data:www-data . /app
-COPY --chown=www-data:www-data example.env .env
 COPY --chown=www-data:www-data config/database.evaluation.yml config/database.yml
 
 # Export the locales.json file.

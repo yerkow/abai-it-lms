@@ -51,11 +51,7 @@ ENV YARN_CHECKSUM_BEHAVIOR=ignore
 
 # Install NodeJS dependencies.
 RUN yarn install
-# Объявить общий список аргументов
-ARG ENV_VARS
 
-# Разобрать ENV_VARS в .env
-RUN echo "$ENV_VARS" | tr ',' '\n' > .env
 # Copy over remaining files and set up for precompilation.
 COPY --chown=www-data:www-data . /app
 COPY --chown=www-data:www-data config/database.evaluation.yml config/database.yml

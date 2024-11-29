@@ -35,7 +35,7 @@ tags
 *.DS_Store
 
 # Ignore dotenv files.
-.env*
+
 
 # Ignore public packs.
 /public/packs

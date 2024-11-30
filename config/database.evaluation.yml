@@ -1,8 +1,8 @@
 development:
   adapter: postgresql
-  host: lms-lmsdb-ehoizu
+  host: lms-db-cuqnym
   username: pupilfirst
-  password: PuPiLfiRsTAbaIiTvAlleY1
+  password: admin
   database: pupilfirst_evaluation
   reconnect: true
 

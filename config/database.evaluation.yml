@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
-  host: db
+  host: lms-lmsdb-ehoizu
   username: pupilfirst
   password: PuPiLfiRsTAbaIiTvAlleY1
   database: pupilfirst_evaluation
